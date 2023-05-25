@@ -25,3 +25,38 @@ body {
   .icon {
     font-size: 4rem;
   }
+
+  /****************
+      ASSIGMENT
+  *****************/
+
+  body {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .emojis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+  
+  .emoji {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .icon {
+    order: -1;
+    align-self: center;
+  }
+
+  .emoji a {
+    justify-content: flex-end;
+  }
+
+  p {
+    flex-grow: 1;
+  }
